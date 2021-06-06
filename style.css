@@ -206,7 +206,9 @@ input:hover{
 .testimonial-text{
   position: relative;
       top: 198px;
-      left: 70px;
+      left: 136px;
+      width: 67%;
+
 }
 .carousel{
   height:100%;
