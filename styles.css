@@ -223,20 +223,23 @@ input .male{
 
 }
 #hospital{
-  width: 75%;
-
-position: relative;
-left: 33px;
-top: 26px;
+  width: 90%;
+  position: relative;
+  left: 33px;
+  top: 12px;
 }
-#college{
-  width: 50%;
-  margin-top: 20px;
 
+#college{
+  width: 90%;
+  position: relative;
+  left: 33px;
+  top: 12px;
 }
 #other{
-  width: 50%;
-  margin-top: 20px;
+  width: 90%;
+  position: relative;
+  left: 33px;
+  top: 13px
 }
 ul {
   list-style: none;
