@@ -5,6 +5,7 @@
     <title>Login</title>
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+     <script defer src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" integrity="sha384-9/D4ECZvKMVEJ9Bhr3ZnUAF+Ahlagp1cyPC7h5yDlZdXs4DQ/vRftzfd+2uFUuqS" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
@@ -13,28 +14,34 @@
     <div class="main-container">
   <div class="sider">
 
-        <div id="login-carousel" class="carousel slide container-fluid" data-ride="carousel">
+        <div id="login-carousel" class="carousel slide container-fluid" data-ride="carousel" data-interval='3000'>
           <ol class="carousel-indicators">
    <li data-target="#login-carousel" data-slide-to="0" class="active"></li>
    <li data-target="#login-carousel" data-slide-to="1"></li>
-   <li data-target="#login-carousel" data-slide-to="2"></li>
+   
  </ol>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img class="login-image" src="15.jpg">
-              <em>Vtie</em>
+              <div class="carousel-item1">
+                <img class="login-image" src="vtie.jpg" alt="lady-profile">
+              <h2 class="testimonial-text">A life saved is a family saved.</h2>
+              </div>
+              <!-- <img class="login-image" src="15.jpg"> -->
+
+
             </div>
             <div class="carousel-item">
               <img class="login-image" src="hosp1.jpg">
-              <em>Vtie</em>
+              <h2 class="testimonial-text">The stethoscope for listening to the <br> heart is over. It's obsolete.</h2>
+
             </div>
 
           </div>
           <a class="carousel-control-prev" href="#login-carousel" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
+            <span class=""></span>
           </a>
           <a class="carousel-control-next" href="#login-carousel" role="button" data-slide="next">
-            <span class="carousel-control-next-icon"></span>
+            <span class=""></span>
           </a>
 
         </div>
@@ -50,6 +57,7 @@
       <div class="inner-img">
         <img src="qq.jpg" alt="">
       </div>
+    <i class="fas fa-clinic-medical fa-5x"></i>
           <h2 class="login">Login Here</h2>
           <div class="details">
             <form class="formdetails" action="index.html" method="post">
@@ -76,10 +84,16 @@
                               validating...
                          </div>
               </fieldset>
+
+
+
               </div>
 
             </form>
           </div>
+<!-- <i class="fas fa-ambulance fa-6x"></i> -->
+<i class="fas fa-hospital-symbol fa-5x"></i>
+
     </div>
   </main>
   </div>

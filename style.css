@@ -33,6 +33,21 @@ text-align: center;
       justify-content: flex-end;
         align-items: center;
 }
+.fa-w-18{
+  position: relative;
+      color: #fff;
+      right: 360px;
+      top: 150px;
+      opacity: 0.4;
+}
+.fa-w-16{
+  position: relative;
+      color: #fff;
+      left: 510px;
+      bottom: 150px;
+      opacity: 0.4;
+}
+
 main{
   display: flex;
   justify-content: center;
@@ -181,13 +196,27 @@ input:hover{
 }
 
 .login-image{
-  height:773px;
-  width:600px;
-
+  height:203px;
+  width:200px;
+  position: relative;
+  left: 194px;
+ border-radius: 100%;
+ top:170px;
+}
+.testimonial-text{
+  position: relative;
+      top: 198px;
+      left: 70px;
+}
+.carousel{
+  height:100%;
+}
+.carousel-item1{
+  display: flex;
+  flex-direction: column;
 }
 .carousel-control-prev-icon,.carousel-control-next-icon{
   background-color: grey;
-
 }
 .validate{
   padding: 10px 63px;
@@ -230,4 +259,17 @@ position: relative;
 right: 264px;
 z-index: 0;
 opacity: 0.1;
+}
+.bigflex{
+  display: flex;
+  flex-direction: column;
+}
+.mainflex{
+  display: flex;
+
+}
+.carousel-inner{
+  width:107%;
+  right: 3%;
+  height: 100%
 }
