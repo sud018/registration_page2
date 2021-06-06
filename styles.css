@@ -113,6 +113,22 @@ outline: none;
   position: relative;
     z-index: 1;
 }
+.radio-input{
+  position: relative;
+    z-index: 1;
+}
+.doctor{
+  position: relative;
+    z-index: 1;
+}
+.student{
+  position: relative;
+    z-index: 1;
+}
+.others{
+  position: relative;
+    z-index: 1;
+}
 input:hover{
     animation: input 2s infinite;
 }
