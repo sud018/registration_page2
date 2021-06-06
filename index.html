@@ -14,6 +14,11 @@
   <div class="sider">
 
         <div id="login-carousel" class="carousel slide container-fluid" data-ride="carousel">
+          <ol class="carousel-indicators">
+   <li data-target="#login-carousel" data-slide-to="0" class="active"></li>
+   <li data-target="#login-carousel" data-slide-to="1"></li>
+   <li data-target="#login-carousel" data-slide-to="2"></li>
+ </ol>
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img class="login-image" src="15.jpg">
@@ -31,6 +36,7 @@
           <a class="carousel-control-next" href="#login-carousel" role="button" data-slide="next">
             <span class="carousel-control-next-icon"></span>
           </a>
+
         </div>
 
 
@@ -41,6 +47,9 @@
   </nav>
   <main>
     <div class="main-content">
+      <div class="inner-img">
+        <img src="qq.jpg" alt="">
+      </div>
           <h2 class="login">Login Here</h2>
           <div class="details">
             <form class="formdetails" action="index.html" method="post">
@@ -60,10 +69,12 @@
               <div >
                 <fieldset >
                   <div class="forgetflex">
-                    <button type="submit" name="button" class="submit-btn">Log In</button>
+                    <button type="submit" name="button" class="submit-btn" onclick="validating()" >Log In</button>
                     <a href="#" class="forget">Forget password?</a>
                   </div>
-
+                         <div class="validate" id="validate">
+                              validating...
+                         </div>
               </fieldset>
               </div>
 
@@ -73,5 +84,6 @@
   </main>
   </div>
     </div>
+    <script src="scriptjs" charset="utf-8"></script>
   </body>
 </html>

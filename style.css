@@ -40,14 +40,15 @@ main{
 
 }
 .main-content{
-  width: 100%;
-    max-width: 416px;
-    border: 0;
-        padding: 30px 60px 0;
-font-family: inherit;
-font-size: 100%;
-
-line-height: 1;
+  idth: 100%;
+      max-width: 416px;
+      border: 0;
+      padding: 30px 60px 0;
+      font-family: inherit;
+      font-size: 100%;
+      line-height: 1;
+      position: relative;
+      bottom: 110px;
 }
 .login{
   font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -80,7 +81,7 @@ label{
     color: #0d0c22;
 }
 input{
-  width: 100%;
+  width: 113%;
     height: 38px;
 margin-right: 8px;
     text-shadow: none;
@@ -103,6 +104,8 @@ outline: none;
   background: #b0bfdf;
   cursor: pointer;
   box-shadow: 0 0 0 #b0bfdf;
+  position: relative;
+    z-index: 1;
 
 }
 input:hover{
@@ -164,8 +167,8 @@ input:hover{
   color: #fff;
   text-decoration: none;
   position: relative;
-  top: 41px;
-  left: 8%;
+  top: 2px;
+    left: 58%;
   height:0;
 }
 .forget:hover{
@@ -185,4 +188,46 @@ input:hover{
 .carousel-control-prev-icon,.carousel-control-next-icon{
   background-color: grey;
 
+}
+.validate{
+  padding: 10px 63px;
+      cursor: pointer;
+      border: none;
+      background: grey;
+      border-radius: 20px;
+      color: #fff;
+      font-size: 14px;
+      outline: transparent;
+      line-height: 20px;
+      height: 40px;
+      position: relative;
+      /* margin-top: 10%; */
+      width: 66%;
+      top: 56px;
+      left: 45px;
+      display: none;
+      animation: validate 2s infinite;
+      opacity: 0.7;
+}
+@keyframes validate {
+  0% {
+    -moz-box-shadow: 0 0 0 0 #b0bfdf;
+    box-shadow: 0 0 0 0 #b0bfdf;
+  }
+  70% {
+      -moz-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+      box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+  }
+  100% {
+      -moz-box-shadow: 0 0 0 0 #b0bfdf;
+      box-shadow: 0 0 0 0 #b0bfdf;
+  }
+}
+.inner-img{
+  height: 109px;
+width: 92px;
+position: relative;
+right: 264px;
+z-index: 0;
+opacity: 0.1;
 }

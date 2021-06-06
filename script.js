@@ -15,3 +15,6 @@ function otherinfo() {
   document.getElementById("student-info").style.display = "none";
   document.getElementById("doctor-info").style.display = "none";
 }
+function validating(){
+  document.getElementById("validate").style.display="inline";
+}

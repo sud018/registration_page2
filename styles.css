@@ -109,6 +109,9 @@ outline: none;
   background: #b0bfdf;
   cursor: pointer;
   box-shadow: 0 0 0 #b0bfdf;
+
+  position: relative;
+    z-index: 1;
 }
 input:hover{
     animation: input 2s infinite;
@@ -257,4 +260,12 @@ ul li:before{
    transform: translateY(-50%) rotate(-45deg);
     position: absolute;
     margin-top: 30px;
+}
+.inner-img{
+  height: 42px;
+  width: 92px;
+  position: relative;
+  right: 216px;
+  z-index: 0;
+  opacity: 0.1;
 }
