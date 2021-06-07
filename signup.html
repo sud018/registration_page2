@@ -12,119 +12,110 @@
   <body>
     <div class="main-container">
   <div class="sider">
-<img src="15.jpg" class="login-image">
-<img src="17.jpg"  class="login2-image" alt="">
-        <!-- <div id="login-carousel" class="carousel slide container-fluid" data-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img class="login-image" src="15.jpg">
+    <div id="login-carousel" class="carousel slide container-fluid" data-ride="carousel" data-interval='3000'>
+      <ol class="carousel-indicators">
+<li data-target="#login-carousel" data-slide-to="0" class="active"></li>
+<li data-target="#login-carousel" data-slide-to="1"></li>
 
-            </div>
-            <div class="carousel-item">
-              <img class="login-image" src="hosp1.jpg">
-
-            </div>
-
+</ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="carousel-item1">
+            <img class="login-image" src="vtie.jpg" alt="lady-profile">
+          <h2 class="testimonial-text">A life saved is a family saved.</h2>
           </div>
-          <a class="carousel-control-prev" href="#login-carousel" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-          </a>
-          <a class="carousel-control-next" href="#login-carousel" role="button" data-slide="next">
-            <span class="carousel-control-next-icon"></span>
-          </a>
-        </div> -->
+          <!-- <img class="login-image" src="15.jpg"> -->
+
+
+        </div>
+        <div class="carousel-item">
+          <img class="login-image" src="hosp1.jpg">
+          <h2 class="testimonial-text">The stethoscope for listening to the  heart is over. It's obsolete.</h2>
+
+        </div>
+
+      </div>
+      <a class="carousel-control-prev" href="#login-carousel" role="button" data-slide="prev">
+        <span class=""></span>
+      </a>
+      <a class="carousel-control-next" href="#login-carousel" role="button" data-slide="next">
+        <span class=""></span>
+      </a>
+
+    </div>
   </div>
   <div class="content">
   <nav class="navbar">
-    <p>Already a member? <button type="submit" name="button" class="button1" action="index.html">Sign In</button></p>
+    <p>Already a member? <button type="submit" name="button" class="button1" onclick="window.location.href='index.html';">Sign In</button></p>
   </nav>
   <main>
     <div class="main-content">
       <div class="inner-img">
-        <img src="dd1.jpg" alt="">
+        <img src="qq11.jpg" class="11";>
       </div>
           <h2 class="login">Create Your Account</h2>
           <div class="details">
-            <form class="formdetails" action="index.html" method="post">
+            <form class="signup" name="form" action="index.html" method="post">
+              <label class="label1">First Name</label>
+              <input type="text" name=""  class="name1" required>
+              <br>
+              <label class="label2">Middle Name</label>
+              <input type="text" name="" class="name2">
+              <br>
+              <label class="label3">Last Name</label>
+              <input type="text" name="" class="name3" required>
+              <br>
+              <label class="label4">Age</label>
+              <input type="text" name=""  class="name4" required>
+              <div class="gender">
+                <label><b>Gender:</b></label>
+                <input TYPE="Radio" Name="Gender" Value="Male" class="male"><p class="male1">Male</p>
 
-              <div class="form-field">
-                <fieldset class="username">
-                <label>First name</label>
-                <input autocomplete="name" class="text-input" type="text" required/>
-              </fieldset>
+                <input TYPE="Radio" Name="Gender" Value="Female" class="female"><p class="female1">Female</p>
               </div>
-              <fieldset class="middlename">
-              <label>Middle name</label>
-              <input autocomplete="name" class="text-input" type="text" />
-            </fieldset>
-            <fieldset class="lastname">
-            <label>Last Name</label>
-            <input autocomplete="name" class="text-input" type="text" />
-          </fieldset>
-                <fieldset class="age">
-                <label>Age</label>
-                <input autocomplete="name" class="text-input" type="number" />
-              </fieldset>
-              <fieldset class="gender">
-              <label>Gender</label>
-              <input class="radio-input" type="Radio" name="gender" />Male
-              <input class="radio-input" type="Radio" name="gender" />Female
-            </fieldset>
-            <fieldset class="profession">
-            <label>Professional</label>
-            <input type="Radio" onclick="doctorinfo()" Name="profession" Value="doctor" class="doctor">Doctor
-              <input type="Radio" onclick="studentinfo()" Name="profession" Value="student" class="student">Student
-              <input type="Radio" onclick="otherinfo()" Name="profession" Value="others" class="others">Others
-          </fieldset>
-          <div id="doctor-info">
-        <ul>
-          <li><input type="text" name="" placeholder="reg-num" id="regno" class="text-input"></li>
-          <br>
-        <li>  <input type="text" name="" placeholder="Aadhar-num" id="aadhar" class="text-input"></li>
-        <br>
-        <li>  <input type="text" name="" placeholder="Hospital Name" id="hospital" class="text-input"></li>
-        <br>
-        </ul>
-      </div>
-      <div id="student-info">
-        <ul>
-          <li><input type="text" name="" placeholder="Aadhar-num" id="aadhar" class="text-input"></li>
-          <br>
-        <li>  <input type="text" name="" placeholder="college Name" id="college" class="text-input"></li>
-        <br>
-        </ul>
-
-      </div>
-      <div id="other-info">
-        <ul>
-          <li>
-          <input type="text" name="" placeholder="Hospital Name" id="other" class="text-input">
-          </li>
-        </ul>
-
-      </div>
-          <fieldset>
-            <label>Present Address</label>
-          <input type="address" name=""  class="text-input" required>
-          </fieldset>
-          <fieldset>
-            <label>Present Address</label>
-            <input type="address" name="" class="text-input" required>
-          </fieldset>
-      <fieldset>
-        <label>Mobile No</label>
-        <input type="mobile" name=""  class="text-input" required>
-      </fieldset>
-
-              <div >
-                <fieldset >
-                  <div class="forgetflex">
-                    <button type="submit" name="button" class="submit-btn">Sign Up</button>
-                    <a href="#" class="forget">Forget password?</a>
-                  </div>
-              </fieldset>
+              <label class="Professional"><b>Professional:</b></label>
+              <input type="Radio" onclick="doctorinfo()" Name="profession" Value="doctor" id="doctor" class="doctor"><p class="doctor1">Doctor</p>
+              <input type="Radio" onclick="studentinfo()" Name="profession" Value="student" class="student"><p class="student1">Student</p>
+              <input type="Radio" onclick="otherinfo()" Name="profession" Value="others" class="others"><p class="others1">Others</p>
+              <br>
+              <div id="doctor-info">
+                <ul>
+                  <label class="label8">Reg-Num</label>
+                  <li><input type="text" name="" class="regno a"></li>
+                  <label class="label9">aadhar-Num</label>
+                <li>  <input type="text" name="" class="aadhar a"></li>
+                <label class="label10">Hospital Name</label>
+                <li>  <input type="text" name="" class="hospital a"></li>
+                </ul>
               </div>
+              <div id="student-info">
+                <ul>
+                  <label class="label11">aadhar-Num</label>
+                  <li><input type="number" name="" class="aadhar"></li>
+                  <label class="label12">College</label>
+                <li>  <input type="text" name="" class="college"></li>
+                </ul>
 
+              </div>
+              <div id="other-info">
+                <ul>
+                  <li>
+                    <label class="label11">Hospital Name</label>
+                  <input type="text" name="" class="hospital">
+                  </li>
+                </ul>
+
+              </div>
+              <div id="pre">
+              <label class="label5">Present Address</label>
+              <input type="address" name="" class="preaddress" required><br>
+              <label class="label6">Permanent Address</label>
+              <input type="address" name=""  class="peraddress" required><br>
+              <label class="label7">Mobile No</label>
+              <input type="mobile" name="" class="mobile" required><br>
+              <br>
+              <button type="submit" name="button" id="button">Signup</button>
+              </div>
             </form>
           </div>
     </div>

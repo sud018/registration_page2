@@ -1,16 +1,17 @@
 .main-container{
   display: flex;
-      height: 1200px
+      height: 972px
 }
 .sider{
-  height:773px;
-  width: 600px;
-  background-color: lightblue;
+  height: 976px;
+width: 600px;
+background-color: #7bedff;
+border-right: 8px solid #fff;
 }
 .content{
-  height: 1200px;
+  height: 976px;
   width: 1000px;
-  background-color: #00987f
+  background-color: #1ca5bb;
 }
 .button1{
   background: #f3f3f4;
@@ -38,7 +39,7 @@ main{
   display: flex;
   justify-content: center;
   margin: 80px 0 0;
-
+ height: 95%;
 }
 .main-content{
   /* width: 100%;
@@ -57,7 +58,8 @@ font-family: inherit;
 font-size: 100%;
 line-height: 1;
 position: relative;
-bottom: 76px;
+bottom: 117px;
+    right: 43px;
 }
 .login{
   font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -117,18 +119,7 @@ outline: none;
   position: relative;
     z-index: 1;
 }
-.doctor{
-  position: relative;
-    z-index: 1;
-}
-.student{
-  position: relative;
-    z-index: 1;
-}
-.others{
-  position: relative;
-    z-index: 1;
-}
+
 input:hover{
     animation: input 2s infinite;
 }
@@ -212,6 +203,20 @@ input .male{
 .login2-image{
   height:415px;
   width:600px;
+}
+.carousel{
+  height: 100%;
+}
+.carousel-inner{
+  width:107%;
+  right: 3%;
+  height: 100%
+}
+.testimonial-text{
+  position: relative;
+      top: 198px;
+      left: 136px;
+      width: 67%;
 
 }
 .carousel-control-prev-icon,.carousel-control-next-icon{
@@ -262,26 +267,440 @@ input .male{
 }
 ul {
   list-style: none;
+  position: relative;
+    bottom: -72px;
 }
 
-ul li:before{
+/* ul li:before{
    content: '';
 
    border-right:2px solid black;
    border-bottom:2px solid black;
    width:10px;
    height:10px;
-   /* top: calc(50% - 4px); */
+
    left: 62px;
    transform: translateY(-50%) rotate(-45deg);
     position: absolute;
     margin-top: 30px;
-}
+} */
 .inner-img{
-  height: 42px;
+  height: 45px;
   width: 92px;
   position: relative;
   right: 216px;
   z-index: 0;
   opacity: 0.1;
+}
+img{
+  height: 2000%;
+}
+.label1{
+  position: relative;
+  right: 100px;
+}
+.name1{
+  width: 116%;
+ height: 38px;
+  position: relative;
+  border-radius: 4px;
+  left: 55px;
+  bottom: 29px;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  border-radius: 8px;
+border: none;
+  appearance: none;
+  color: #0d0c22;
+outline: none;
+background: #fff;
+cursor: pointer;
+box-shadow: 0 0 0 #b0bfdf;
+}
+.name2{
+  width: 116%;
+  height: 38px;
+  position: relative;
+  border-radius: 4px;
+  left: 55px;
+  bottom: 49px;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  border-radius: 8px;
+border: none;
+  appearance: none;
+  color: #0d0c22;
+outline: none;
+background: #fff;
+cursor: pointer;
+box-shadow: 0 0 0 #b0bfdf;
+}
+.label2{
+  position: relative;
+  bottom: 14px;
+  right: 100px;
+}
+.name3{
+  width: 116%;
+  height: 38px;
+  position: relative;
+  border-radius: 4px;
+  left: 55px;
+  bottom: 70px;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  border-radius: 8px;
+border: none;
+  appearance: none;
+  color: #0d0c22;
+outline: none;
+background: #fff;
+cursor: pointer;
+box-shadow: 0 0 0 #fff;
+}
+.label3{
+  position: relative;
+  bottom: 36px;
+  right: 100px;
+}
+.name4{
+  width: 116%;
+  height: 38px;
+  position: relative;
+  border-radius: 4px;
+  left: 55px;
+  bottom: 90px;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  border-radius: 8px;
+border: none;
+  appearance: none;
+  color: #0d0c22;
+outline: none;
+background: #fff;
+cursor: pointer;
+box-shadow: 0 0 0 #b0bfdf;
+}
+.label4{
+  position: relative;
+  bottom: 54px;
+  right: 100px;
+}
+.gender{
+  position: relative;
+      bottom: 79px;
+      right: 100px;
+}
+.male{
+  position: relative;
+    bottom: 25px;
+    left: 62%;
+}
+.female{
+  position: relative;
+  bottom: 73px;
+    left: 91%;
+}
+.male1{
+  position: relative;
+  bottom: 42px;
+left: 227px;
+}
+.female1{
+  position: relative;
+  bottom: 90px;
+    left: 96%;
+    right: 100px;
+}
+.Professional{
+  position: relative;
+  bottom: 150px;
+  right: 100px;
+}
+.doctor{
+  position: relative;
+  bottom: 175px;
+      left: 111px;
+}
+.student{
+  position: relative;
+  bottom: 222px;
+    left: 62%;
+}
+.others{
+  position: relative;
+  bottom: 269px;
+    left: 95%;
+
+}
+.doctor1{
+  position: relative;
+  bottom: 192px;
+      left: 37%;
+}
+.student1{
+  position: relative;
+  bottom: 239px;
+      left: 67%;
+}
+.others1{
+  position: relative;
+  bottom: 286px;
+    left: 100%;
+}
+.label5{
+  position: relative;
+  bottom: 300px;
+  right: 100px;
+}
+.preaddress{
+  width: 116%;
+  height: 38px;
+  position: relative;
+  border-radius: 4px;
+  left: 55px;
+  bottom: 333px;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  border-radius: 8px;
+border: none;
+  appearance: none;
+  color: #0d0c22;
+outline: none;
+background: #fff;
+cursor: pointer;
+box-shadow: 0 0 0 #b0bfdf;
+}
+.label6{
+  position: relative;
+  bottom: 322px;
+  right: 100px;
+}
+.peraddress{
+  width: 116%;
+  height: 38px;
+  position: relative;
+  border-radius: 4px;
+  left: 55px;
+  bottom: 356px;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  border-radius: 8px;
+border: none;
+  appearance: none;
+  color: #0d0c22;
+outline: none;
+background: #fff;
+cursor: pointer;
+box-shadow: 0 0 0 #b0bfdf;
+}
+.label7{
+  position: relative;
+  bottom: 347px;
+  right: 100px;
+}
+.mobile{
+  width: 116%;
+  height: 38px;
+  position: relative;
+  border-radius: 4px;
+  left: 55px;
+  bottom: 380px;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  border-radius: 8px;
+border: none;
+  appearance: none;
+  color: #0d0c22;
+outline: none;
+background: #fff;
+cursor: pointer;
+box-shadow: 0 0 0 #b0bfdf;
+}
+#button{
+  position: relative;
+  bottom: 347px;
+  padding: 10px 16px;
+  cursor: pointer;
+  border: none;
+  background: #ea4c89;
+  border-radius: 8px;
+  color: #fff;
+  outline: transparent;
+  width: 50%;
+  left: 186px;
+}
+.login-image{
+  height:203px;
+  width:200px;
+  position: relative;
+  left: 194px;
+ border-radius: 100%;
+ top:170px;
+}
+.regno{
+
+  width: 131%;
+      height: 38px;
+      position: relative;
+      border-radius: 4px;
+      left: 14px;
+      bottom: 380px;
+      font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      border-radius: 8px;
+      border: none;
+      appearance: none;
+      color: #0d0c22;
+      outline: none;
+      background: #fff;
+      cursor: pointer;
+      box-shadow: 0 0 0 #b0bfdf;
+
+}
+.aadhar{
+  width: 131%;
+  height: 38px;
+  position: relative;
+  border-radius: 4px;
+  left: 14px;
+  bottom: 401px;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  border-radius: 8px;
+border: none;
+  appearance: none;
+  color: #0d0c22;
+outline: none;
+background: #fff;
+cursor: pointer;
+box-shadow: 0 0 0 #b0bfdf;
+}
+.hospital{
+  width: 131%;
+  height: 38px;
+  position: relative;
+  border-radius: 4px;
+  left: 14px;
+  bottom: 420px;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  border-radius: 8px;
+border: none;
+  appearance: none;
+  color: #0d0c22;
+outline: none;
+background: #fff;
+cursor: pointer;
+box-shadow: 0 0 0 #b0bfdf;
+}
+.college{
+  width: 131%;
+  height: 38px;
+  position: relative;
+  border-radius: 4px;
+  left: 14px;
+  bottom: 425px;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  border-radius: 8px;
+border: none;
+  appearance: none;
+  color: #0d0c22;
+outline: none;
+background: #fff;
+cursor: pointer;
+box-shadow: 0 0 0 #b0bfdf;
+}
+.other{
+  width: 131%;
+  height: 38px;
+  position: relative;
+  border-radius: 4px;
+  left: 14px;
+  bottom: 400px;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  border-radius: 8px;
+border: none;
+  appearance: none;
+  color: #0d0c22;
+outline: none;
+background: #fff;
+cursor: pointer;
+box-shadow: 0 0 0 #b0bfdf;
+}
+.signup{
+  position: relative;
+  height:596px;
+}
+.details{
+  position:relative;
+}
+.label8{
+  position: relative;
+  bottom: 345px;
+    right: 141px;
+}
+.label9{
+  position: relative;
+  bottom: 368px;
+    right: 141px;
+}
+.label10{
+  position: relative;
+  bottom: 384px;
+    right: 141px;
+}
+.label11{
+  position: relative;
+  bottom: 385px;
+    right: 141px;
+}
+.label12{
+  position: relative;
+  bottom: 392px;
+    right: 141px;
+}
+#button:hover{
+  opacity: 0.8;
+  animation: submit 2s infinite;
+}
+@keyframes submit {
+  0% {
+    -moz-box-shadow: 0 0 0 0 #ea4c89;
+    box-shadow: 0 0 0 0 #ea4c89;
+  }
+  70% {
+      -moz-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+      box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+  }
+  100% {
+      -moz-box-shadow: 0 0 0 0 #ea4c89;
+      box-shadow: 0 0 0 0 #ea4c89;
+  }
 }

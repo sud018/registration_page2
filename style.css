@@ -9,7 +9,7 @@
 .content{
   height: 773px;
   width: 1000px;
-  background-color: #00987f
+  background-color: #00987f;
 }
 .button1{
   background: #f3f3f4;
@@ -35,17 +35,60 @@ text-align: center;
 }
 .fa-w-18{
   position: relative;
-      color: #fff;
-      right: 360px;
-      top: 150px;
-      opacity: 0.4;
+    color: #fff;
+    right: -505px;
+    top: 493px;
+    opacity: 0.3;
 }
 .fa-w-16{
   position: relative;
+    color: #fff;
+    left: 231px;
+    bottom: 441px;
+    opacity: 0.3;
+}
+.fa-stethoscope{
+  position: relative;
+  color: #fff;
+  left: 366px;
+  bottom: 369px;
+  opacity: 0.3;
+  transform: rotate(35deg);
+}
+.fa-plus-circle{
+  position: relative;
+    left: -260px;
+    bottom: 372px;
+    opacity: 0.3;
+}
+.fa-procedures{
+  position: relative;
+    color: #fff;
+    opacity: 0.3;
+    bottom: 350px;
+    left: 268px;
+}
+.fa-ambulance{
+  position: relative;
       color: #fff;
-      left: 510px;
+      left: -155px;
       bottom: 150px;
-      opacity: 0.4;
+      opacity: 0.3;
+      top: 138px;
+}
+.fa-clinic-medical{
+  position: relative;
+    color: #fff;
+    opacity: 0.2;
+    top: -833px;
+    right: 255px;
+}
+.fa-hand-holding-heart{
+  position: relative;
+    color: #fff;
+    opacity: 0.2;
+    top: -922px;
+    right: -21px;
 }
 
 main{
